@@ -15,7 +15,8 @@
         height: 100%;
     }
     body {
-      background: url(video/lighthouse.jpg) center center #333;
+      background: #333;
+      background-image: none;
       font-family:'Neue Haas Unica W01', Helvetica, Arial, sans-serif;
       font-size: 6em;
       font-weight: 700;
@@ -51,10 +52,12 @@
       overflow: hidden;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
       html{
-        font-size:0.5em;
-        font-weight:400;
+        font-size: 0.725em;
+      }
+      body {
+        background: url(video/lighthouse.jpg) center center #333;
       }
     }
     </style>
