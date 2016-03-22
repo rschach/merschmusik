@@ -22,7 +22,7 @@ svg text {
     text-anchor: middle;
 }
 svg mask rect {
-    fill: rgba(255, 255, 255, 0.5);
+    fill: rgba(222, 222, 222, 0.425);
 }
 svg > rect {
     fill: #111;
